@@ -165,7 +165,6 @@
          blank if the device do not support performance profiles 
     <string name="config_perf_profile_prop">sys.perf.profile</string> -->
 
- HEAD
     <!-- When config_perf_profile_prop is defined, this value MUST be the index of
          one of the listes values in frameworks/base/core/res/res/values/cm_arrays.xml
          for "perf_profile_values" array. Leave it blank if the device do not support
@@ -187,7 +186,6 @@
 
     <!-- Whether UI for multi user should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
- b62396f... Adding new ambient display overlays
 
     <!-- Screen brightness when dozing -->
     <integer name="config_screenBrightnessDoze">30</integer>
